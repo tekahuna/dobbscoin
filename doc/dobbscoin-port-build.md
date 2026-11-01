@@ -1,6 +1,6 @@
 # Dobbscoin port build and verification
 
-**Experimental candidate only. This branch is not a working Dobbscoin node and must not be used on public networks.** Its standalone header, difficulty, subsidy, AuxPoW codec, and commitment helpers are not wired into runtime validation, networking, storage, activation, or chain selection.
+**Experimental candidate only. This branch is not a working Dobbscoin node and must not be used on public networks.** Its standalone header, reorganization-depth, subsidy, version, AuxPoW codec, and commitment helpers are not wired into runtime validation, networking, storage, activation, or chain selection.
 
 This note describes two separate build paths for the experimental port candidate. The local CMake path is for quick compile and test feedback. The Guix path is for reproducible build candidates and needs a suitable builder with Guix installed.
 
