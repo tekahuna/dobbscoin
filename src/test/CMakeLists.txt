@@ -41,6 +41,10 @@ add_executable(test_bitcoin
   dbwrapper_tests.cpp
   denialofservice_tests.cpp
   descriptor_tests.cpp
+  dobbscoin_auxpow_codec_tests.cpp
+  dobbscoin_auxpow_commitment_tests.cpp
+  dobbscoin_header_version_tests.cpp
+  dobbscoin_subsidy_tests.cpp
   disconnected_transactions.cpp
   feefrac_tests.cpp
   feerounder_tests.cpp
@@ -83,12 +87,14 @@ add_executable(test_bitcoin
   raii_event_tests.cpp
   random_tests.cpp
   rbf_tests.cpp
+  reorg_depth_tests.cpp
   rest_tests.cpp
   result_tests.cpp
   reverselock_tests.cpp
   rpc_tests.cpp
   sanity_tests.cpp
   scheduler_tests.cpp
+  scrypt_tests.cpp
   script_assets_tests.cpp
   script_p2sh_tests.cpp
   script_parse_tests.cpp

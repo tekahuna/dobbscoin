@@ -58,6 +58,9 @@ public:
 
     uint256 GetHash() const;
 
+    /** Compute the Scrypt proof-of-work hash of the canonical 80-byte header. */
+    uint256 GetPoWHash() const;
+
     NodeSeconds Time() const
     {
         return NodeSeconds{std::chrono::seconds{nTime}};
